@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.5">
+        <title>portafolio site</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+        <script>
+            function send(){
+            const send1 = document.querySelector('.sent');
+
+                if(send1.innerText === 'send'){
+                    send1.innerHTML='sented';
+                    send1.classList.add('is-send')
+                }else{
+                    send1.innerHTML='send'
+                    send1.classList.remove('is-send')
+
+                }
+    }
+        </script>
+    </head>
+    <body>
+        <header>
+        <nav>
+        <a href="#home">home</a>   
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <a href="image_profile.jpg" target="_self"><img class="profile" src="image_profile.jpg" alt="profile"></a>
+    <section class="name" id="home" >
+    <h1>K.HARSHA VARDHAN REDDY</h1>
+    <p>BCA Graduate|web devoloper|AI Enthusiast</p>
+    <div class="social-icons">
+  <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+  <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+  <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+  <a href="https://www.linkedin.com/in/harshavardhanreddy002" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+  <a href="https://github.com/harshavardhanreddy2"><i class="fab fa-github"></i></a>
+</div>
+    </section>
+</header>
+<section id="about">
+        <h2>About Me</h2>
+<P class="BCA">Innovative BCA graduate bridging web development and AI to craft purposeful digital experiences.
+From deepfake audio detection to responsive interfaces, I turn creative ambition into intuitive tech solutions.
+Driven by continuous learning and ethical design, I build with impact and integrity.</p>
+    </section>
+    <h2>explore:</h2>
+    <section  class="project" id="projects">
+        <a href=" https://harshavardhanreddy2.github.io/harsha/"> full details</a>
+        <a href="index1.html">projects</a>
+        <a href="">skills</a>
+    </section>
+    <legend class="MBU">Education</legend>
+        <section class="edu" id="education">
+            <h1 class="mbus">MOHAN BABU UNIVERSTY</h1>
+            <p class="date">2022-2025</p>
+            <h3 class="cgpa">CGPA:</h2><p>8.14</p>
+            <img  class="UNIVERSTY" src="Mohan-Babu-University.jpg" alt="clg" />
+            </section>
+    <section id="contact">
+     <h2 class="conatctm">Contact Me</h2>
+     <label>name:</label>
+     <input type="text" name="name" id="name"  placeholder="name" required >
+     <label>email:</label>
+     <input type="email" name="email" id="email"   placeholder="youremail@example.com" required>
+     <label>Mobile Number:</label>
+     <input type="tel" name="num" id="num"  placeholder="+91-XXXXXXXXXX" required>
+     <label>meaasge:(optional)</label>
+     <textarea  name="discribe" id="discribe" placeholder="meassage:"></textarea>
+     <button type="submit" class="sent" onclick="
+     send();
+     "
+     > send</button>
+    </section>
+    <footer>
+        <p>&copy; 2025 K.Harsha vardhan reddy All rights reserved.</p>
+        <a href="tel:+917013266414">contact number</a><br>
+       <a href="mailto:k.harshavardhanreddy423@gmail.com">email</a>
+    </footer>
+    </body>
+</html>

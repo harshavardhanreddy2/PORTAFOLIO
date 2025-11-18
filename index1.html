@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <title>project&intern</title>
+        <meta charset="utf-8">
+        <mata name="viewport" content="width=device-width initial-scale=1.1">
+            <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <nav>
+            <a href="#about">about</a>
+            <a href="#algorithms">Algorithms</a>
+            <a href="#project">project</a>
+        </nav>
+        <main>
+            <h1>Academic project
+                <p>Database|algorithms|webdevolopment</p>
+            </h1>
+            
+            <section id="about">
+                <legend>Project Title: Detection of Deepfake Audios using Deep Learning Techniques</legend>
+                    <p class="aboutp">
+<span> Overview:</span>
+This project focuses on identifying synthetic or manipulated audio — commonly known as deepfake audio —
+ using advanced deep learning models. With the rise of AI-generated voices, detecting fake audios has become crucial for preventing misinformation, fraud, and privacy breaches.<br>
+</p><p class="aboutp">
+<span>Problem Statement:</span>
+Deepfake audio can mimic a person’s voice with high accuracy, making it hard to distinguish real from fake. 
+Traditional audio forensics techniques struggle with this complexity. Hence, deep learning is used for more accurate and scalable detection.<br>
+</p><p class="aboutp">
+<span>How It Works:</span>
+
+Data Collection: Real and deepfake audio samples are collected from datasets like ASVspoof or FakeAVCeleb.
+
+Preprocessing: Audio signals are converted into spectrograms or MFCCs (Mel Frequency Cepstral Coefficients).
+
+Model Training: CNNs or RNNs (LSTM/GRU) are trained to learn patterns in the audio features.
+
+Prediction: The model outputs whether the audio is real or fake based on learned characteristics.<br>
+</p><p class="aboutp">
+<span>Technologies Used:</span>
+Python, TensorFlow/Keras or PyTorch, Librosa (for audio processing), CNN/RNN architectures.<br>
+</p><p class="aboutp">
+<span>Outcome:</span>
+Achieved high accuracy in distinguishing deepfake audio from real audio, with potential applications in voice authentication systems
+                    </p>
+            </section>
+        </main>
+        <section id="algorithms">
+            <h2>Algorithms</h2>
+            <ul>
+                <li><span>Convolutional Neural Networks (CNNs) </span>with Mel spectrograms or MFCCs to extract and analyze spectral features from audio, spotting manipulation artifacts.<br></li>
+                 <li><span>Hybrid models</span> that combine CNNs and RNNs(for spatial/spectral features) .<br></li>
+                <li><span>LSTM networks</span> (for temporal analysis) improving detection accuracy and robustness.<br></li>
+                <li>Feature ensembling by integrating <span>deep-learned and handcrafted audio features (like MFCCs, spectral centroid, rolloff) </span>for stronger classification.<br></li>
+                 <li>Models are trained and evaluated on genuine and fake audio datasets using metrics such as accuracy, F1, and EER</li></ul>
+        </section>
+        <section id="project" class="project">
+            <h2>Project Full Details</h2>
+                <span class="m">Project Highlights:</span>
+                <P><span>Goal:</span> Build a model that can automatically classify audio clips as genuine or deepfake, using state-of-the-art deep learning algorithms.<br>
+                 <span>Relevance:</span> Tackles a timely security and media integrity issue, demonstrating your ability to work at the intersection of artificial intelligence, audio processing, and cybersecurity.</P>
+                 <span class="m">Key Features:</span>
+                 <p><span>Data Preparation: </span>Collect and preprocess a dataset consisting of real and deepfake audios, possibly including public datasets like DEEP-VOICE.
+                    Feature Engineering: Extract informative features from audio such as:
+                   Mel spectrograms,Mel-frequency cepstral coefficients (MFCC),Spectral roll-off and centroid<br>
+                  <span>Model Architecture:</span>
+                  Use Convolutional Neural Networks (CNNs) to analyze spectrograms for manipulation artifacts.
+                  Deploy Recurrent Neural Networks (RNNs), particularly LSTM layers, to capture temporal dependencies in audio signals.
+                  Experiment with hybrid CNN-RNN/LSTM models for improved performance.<br>
+                  <span>Training & Evaluation:</span>
+                  Train on labeled datasets of authentic and deepfake samples.
+                  Evaluate using metrics like accuracy, F1-score, and Equal Error Rate (EER).
+                  Feature Ensembling: Combine deep-learned and handcrafted audio features for more robust detection.</p>
+                </section>
+                <div class="images">
+                    <img src="project_acuracy.png" alt="accuracy of project">
+                </div>
+    </body>
+</html>

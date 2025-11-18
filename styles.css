@@ -1,0 +1,80 @@
+nav{
+    font-size: 25px;
+     position: fixed;
+  top: 0;
+  right: 0;
+  display: flex;
+  gap: 1px;
+  padding: 10px 20px;
+}
+nav a{
+   text-decoration: none;
+  color: black;
+  font-weight: bold;
+  padding: 4px 12px;
+  transition: color 0.3s ease;
+}
+a:hover{
+    background-color:rgb(248, 183, 183) ;
+    border: 2px solid yellow;
+    border-radius: 10px;
+}
+h1 , h2{
+    font-size: 30px;
+    padding: 0px 30px ;
+    text-align: center;
+}
+legend{
+    font-family: fantasy;
+    text-align: center;
+}
+#about{
+    display: flexbox;
+    justify-content: center;
+    text-align: center;
+}
+.aboutp{
+    text-align: center;
+    font-size:30px;
+    padding:10px;
+    font-family: sans-serif;
+    margin-top: 13px;
+    margin-bottom:0;
+    margin-left:100px ;
+    margin-right:45px ;
+    gap:10px;
+    
+}
+span{
+    font-family: Georgia, serif;
+    font-weight: 600;
+}
+ul >li{
+     align-items: center;
+    font-size:30px;
+    padding:10px;
+    font-family: sans-serif;
+    margin-top: 13px;
+    margin-bottom:0;
+    margin-left:100px ;
+    margin-right:45px ;
+    gap:10px;
+}
+.m{
+    margin-left: 100px;
+    font-size: 45px;
+}
+.project  >p{
+     align-items: center;
+    font-size:30px;
+    padding:10px;
+    font-family: sans-serif;
+    margin-top: 13px;
+    margin-bottom:0;
+    margin-left:100px ;
+    margin-right:45px ;
+    gap:10px;
+}
+.images{
+    margin-left:100px;
+}

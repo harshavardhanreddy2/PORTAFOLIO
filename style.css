@@ -1,0 +1,186 @@
+*{
+  scroll-behavior: smooth;
+}
+@media  only screen (max-width:400px) {
+  boby{
+    color:aliceblue;
+  }
+}
+  body{
+    color:aliceblue;
+    overflow-x: hidden;
+    overflow-y: auto;
+    min-width: 768px;
+  font-family:'Segoe UI', sans-serif;
+  background-color:black;
+
+}
+nav{
+  position: fixed;
+  top:0;
+  right:0;
+  padding: 8px 12px;
+  font-size: 15px;
+}
+nav >a{
+  text-decoration: none;
+  color: white;
+  padding:10px;
+  transition-duration: 0.8s;
+  transition-timing-function: ease-in-out;
+}
+nav >a:hover{
+  color:red;
+  background-color: rgb(29, 27, 27);
+  border-radius: 15px;
+}
+.profile{
+  width:50px;
+  height:65px;
+  left:0;
+  top:0;
+  border-radius: 50%;
+}
+.name{
+  border-radius: 20px;
+  text-align: center;
+  padding-top:0px;
+  padding-bottom: 200px;
+}
+h2{
+ text-align: center;
+ font-weight:900;
+}
+.BCA{
+  font-family:serif;
+}
+.BCA::first-letter{
+  font-size: 2rem;
+  color: orangered;
+  float: left;
+  margin-right: 1rem;
+}
+.project {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 75px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.project a {
+    text-decoration: none;
+    color:aliceblue; 
+    font-weight: bold;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+}
+
+.project a:hover{
+  color: white;
+  background-color: #000;
+  border-radius: 20px;
+  transform: scale(1.1);
+}
+#contact{
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#contact > input{
+ border-radius: 10px;
+}
+#contact > input:hover{
+  transform:scale(1.1);
+}
+#contact > textarea{
+  border-radius: 10px;
+}
+#contact > textarea:hover{
+  transform: scale(1.1);
+}
+.sent{
+  color:black;
+  font-weight: bold;
+  border-radius: 10px;
+  background-color:rgb(167, 167, 246) ;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.is-send{
+  color:white;
+  background-color: red;
+}
+footer{
+  text-align: center;
+}
+footer > a{
+  color:aliceblue;
+  text-decoration: none;
+}
+.MBU{
+  text-align: center;
+  font-weight: 800;
+  font-size: 30px;
+  position: relative;
+  top:100px;
+}
+.edu{
+  display:flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: center;
+  font-size: 30px;
+}
+.UNIVERSTY{
+  height:250px;
+  width:300px;
+  position:relative;
+  top:-1rem;
+  bottom:800px;
+  border-radius: 200px;
+  transition-timing-function: ease;
+  transition-duration: 2s;
+
+}/*mohan babu univerty image*/
+.UNIVERSTY:hover{
+  transform: scale(1.1);
+  box-shadow: 0 8px 16px rgb(254, 253, 253);
+}
+.mbus{
+  align-items: center;
+  font-size: 40px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.date{
+  font-weight: 500;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
+   'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.social-icons {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.social-icons a {
+  text-decoration: none;
+  color: #fff;
+  background-color:#333;
+  padding: 10px;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+}
+
+.social-icons a:hover {
+  background-color: #0077b5;
+}
+
+.social-icons i {
+  font-size: 18px;
+}
