@@ -2,9 +2,9 @@
   scroll-behavior: smooth;
 }
 @media  only screen (max-width:400px) {
-  boby{
-    color:aliceblue;
-  }
+   body{
+    max-width:400px;
+   }
 }
   body{
     color:aliceblue;
@@ -129,7 +129,9 @@ footer > a{
   font-weight: 800;
   font-size: 30px;
   position: relative;
-  top:100px;
+  top:60px;
+  z-index: 1;
+
 }
 .edu{
   display:flex;
@@ -139,8 +141,8 @@ footer > a{
   font-size: 30px;
 }
 .UNIVERSTY{
-  height:250px;
-  width:300px;
+  height:180px;
+  width:160px;
   position:relative;
   top:-1rem;
   bottom:800px;
