@@ -11,8 +11,8 @@
     overflow-x: hidden;
     overflow-y: auto;
     min-width: 768px;
-  font-family:'Segoe UI', sans-serif;
-  background-color:black;
+    font-family:'Segoe UI', sans-serif;
+    background-color: #333;
 
 }
 nav{
@@ -60,7 +60,8 @@ h2{
   float: left;
   margin-right: 1rem;
 }
-.project {
+.project{
+    border:2px sloid white;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -78,6 +79,7 @@ h2{
 }
 
 .project a:hover{
+  border:2px sloid white;
   color: white;
   background-color: #000;
   border-radius: 20px;

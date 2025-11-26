@@ -6,20 +6,7 @@
         <title>portafolio site</title>
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-        <script>
-            function send(){
-            const send1 = document.querySelector('.sent');
-
-                if(send1.innerText === 'send'){
-                    send1.innerHTML='sented';
-                    send1.classList.add('is-send')
-                }else{
-                    send1.innerHTML='send'
-                    send1.classList.remove('is-send')
-
-                }
-    }
-        </script>
+        <script src="mianpage.js"></script>
     </head>
     <body>
         <header>
@@ -61,7 +48,7 @@ Driven by continuous learning and ethical design, I build with impact and integr
             <h3 class="cgpa">CGPA:</h2><p>8.14</p>
             <img  class="UNIVERSTY" src="Mohan-Babu-University.jpg" alt="clg" />
             </section>
-    <section id="contact">
+    <section id="contact" class="contact">
      <h2 class="conatctm">Contact Me</h2>
      <label>name:</label>
      <input type="text" name="name" id="name"  placeholder="name" required >
@@ -71,10 +58,9 @@ Driven by continuous learning and ethical design, I build with impact and integr
      <input type="tel" name="num" id="num"  placeholder="+91-XXXXXXXXXX" required>
      <label>meaasge:(optional)</label>
      <textarea  name="discribe" id="discribe" placeholder="meassage:"></textarea>
-     <button type="submit" class="sent" onclick="
-     send();
-     "
-     > send</button>
+     <button type="submit" class="sent" onclick="send(),
+     alert('send is disabled')
+     "> send</button>
     </section>
     <footer>
         <p>&copy; 2025 K.Harsha vardhan reddy All rights reserved.</p>
