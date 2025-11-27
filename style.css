@@ -85,25 +85,30 @@ h2{
   border-radius: 20px;
   transform: scale(1.1);
 }
-#contact{
-  font-size: 20px;
-  font-weight: bold;
-  display: flex;
+.contact{
+  display:flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  border-radius: 50px;
+  cursor:pointer;
+  
 }
-#contact > input{
- border-radius: 10px;
+.contact >h2{
+  text-align: center;
+  font-weight: 80px;
 }
-#contact > input:hover{
-  transform:scale(1.1);
-}
-#contact > textarea{
+.contact > input{
   border-radius: 10px;
+  color:white;
 }
-#contact > textarea:hover{
-  transform: scale(1.1);
+.contact > input:hover{
+  transform:scale(1.1);
+  background-color:black;
+}
+.contact > textarea{
+  height:50px;
+  width:auto;
+
 }
 .sent{
   color:black;
@@ -113,7 +118,7 @@ h2{
   margin-top: 20px;
   cursor: pointer;
 }
-.is-send{
+.is_send{
   color:white;
   background-color: red;
 }
