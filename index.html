@@ -6,16 +6,17 @@
         <title>portafolio site</title>
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-        <script src="mianpage.js"></script>
+        <script src="mainpage.js" defer></script>
     </head>
-    <body>
+    <body id="body">
         <header>
         <nav>
         <a href="#home">home</a>   
         <a href="#about">About</a>
         <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
-    </nav>
+        <button id="background" >change background</button>
+        </nav>
     <a href="image_profile.jpg" target="_self"><img class="profile" src="image_profile.jpg" alt="profile"></a>
     <section class="name" id="home" >
     <h1>K.HARSHA VARDHAN REDDY</h1>
@@ -48,23 +49,22 @@ Driven by continuous learning and ethical design, I build with impact and integr
             <h3 class="cgpa">CGPA:</h3><p>8.14</p>
             <img  class="UNIVERSTY" src="Mohan-Babu-University.jpg" alt="clg" />
             </section>
-    <form class="contact">
-        <h2>Contact Me</h2>
-        <label for="name">Name:</label>
-        <input type="text" name="name" id="name" placeholder="Name" required>
+        <form id="contact-form" class="contact">
+            <h2>Contact Me</h2>
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" placeholder="Name" required>
 
-        <label for="email">Email:</label>
-        <input type="email" name="email" id="email" placeholder="youremail@example.com" required>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="youremail@example.com" required>
 
-        <label for="num">Mobile Number:</label>
-        <input type="tel" name="num" id="num" placeholder="+91-XXXXXXXXXX" required>
+            <label for="num">Mobile Number:</label>
+            <input type="tel" name="num" id="num" placeholder="+91-XXXXXXXXXX" required>
 
-        <label for="discribe">Message (optional):</label>
-        <textarea name="discribe" id="discribe" placeholder="Message:"></textarea>
+            <label for="discribe">Message (optional):</label>
+            <textarea name="discribe" id="discribe" placeholder="Message:"></textarea>
 
-        <button type="submit" class="sent">Send</button>
-    </form>
-     
+            <button class="sent" onclick="send()">Send</button>
+        </form>
     <footer>
         <p>&copy; 2025 K.Harsha vardhan reddy All rights reserved.</p>
         <a href="tel:+917013266414">contact number</a><br>
